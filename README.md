@@ -88,3 +88,7 @@ You can also use `cron` with `@reboot`, but systemd is preferred since it handle
 - **Magic famously has no creatures worth 14 mana.** The 14 CMC folder is filled with photos of my friends instead. There are no guardrails stopping a player from selecting CMC 14 — that's a feature, not a bug.
 - **Paper orientation matters.** Thermal paper is only heat-sensitive on one side. If nothing prints, flip the roll.
 - **usblp conflicts with escpos.** If the printer stops responding, blacklist the `usblp` kernel module: `echo "blacklist usblp" | sudo tee /etc/modprobe.d/blacklist-usblp.conf`
+
+
+## Inspired by Rhystic Studies' Video: Mormir Vig | Magic's Luckiest Minigame
+## Design help from @oboyone https://github.com/oboyone/mb_thermal_printer
